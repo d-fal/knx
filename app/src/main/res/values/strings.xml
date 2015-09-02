@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">calimero_test</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="press_me">Press to see what happens</string>
+    <string name="title_activity_second">secondActivity</string>
+    <string name="title_activity_list_view">listViewActivity</string>
+    <string name="title_activity_activity_list_view">ActivityListView</string>
+    <string name="title_activity_list_view_acitivity">list_view_acitivity</string>
+    <string name="title_activity_layout_test">layout_test</string>
+    <string name="title_activity_relative_layout_test">relative_layout_test</string>
+</resources>

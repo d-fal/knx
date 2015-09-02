@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="ir.youconnect.dfalahati.calimero_test.layout_test"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text 1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="fill_parent"
+        android:layout_height="50px"
+        android:layout_alignLeft="@+id/username"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pass 1"
+        android:layout_alignLeft="@+id/txtusername"
+        android:layout_below="@+id/txtusername"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="fill_parent"
+        android:layout_alignLeft="@+id/password"
+        android:layout_height="50px"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:text="login"
+        android:width="200px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtpassword"
+        android:layout_below="@+id/txtpassword"
+        android:layout_centerHorizontal="true"
+        />
+</LinearLayout>
